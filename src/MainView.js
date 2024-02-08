@@ -20,12 +20,11 @@ camera.position.set( 0.0, 1.0, 5.0 ); // center of screen
 //camera.position.set( -1.2, 1.5, 3.0 ); // bottom right of screen
 
 // light for MMD
-const light1 = new THREE.DirectionalLight( 0xffffff, 4 );
-const light2 = new THREE.DirectionalLight( 0xffffff, 5 );
-light1.position.set( 1.0, 1.0, 1.0 ).normalize();
-light2.position.set( -0.5, 0.5, 1.0 ).normalize();
-scene.add( light1 );
-scene.add( light2 );
+const directLight = new THREE.DirectionalLight( 0xffffff, 5 );
+directLight.position.set( -1.0, 0.5, 1.0 ).normalize();
+scene.add(directLight);
+const ambient = new THREE.AmbientLight(0xffffff);
+scene.add(ambient);
 
 // set animate clock
 const clock = new THREE.Clock();
