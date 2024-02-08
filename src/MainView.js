@@ -4,6 +4,9 @@ import { VrmModel } from './VrmModel.js';
 
 const __dirname = await window.electronAPI.getDirname();
 
+// load config.json
+const config = await window.electronAPI.getConfig();
+
 // scene
 const scene = new THREE.Scene();
 
