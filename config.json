@@ -1,0 +1,54 @@
+{
+    "Renderer": {
+        "Scene": {
+            "PerspectiveCamera": {
+                "fov": 30.0,
+                "near": 0.1,
+                "far": 20.0
+            },
+            "CameraPosition": {
+                "position": [0.0, 0.0, 0.0],
+                "rotation": [0.0, 0.0, 0.0, 0.0]
+            },
+            "DirectLight": {
+                "color": "0xffffff",
+                "position": [-1.0, 0.5, 1.0]
+            },
+            "FPS": 0.04,
+            "ModelName": "your.vrm"
+        },
+        "CommentBoard": {
+            "position": [0.3, 1.5, -1.0],
+            "rotation": [0.0, 0.0, 0.0, 0.0],
+            "aspect": 0.25,
+            "canvas": {
+                "width": 600,
+                "height": 200
+            },
+            "texture": "res/img/comment_window.png",
+            "font": {
+                "color": "#FFFFFF",
+                "style": "32px Arial"
+            }
+        },
+        "AvatorInitPose": {
+            "head": {"rotation": [0.0, -0.08987854919801104, 0.0, 0.9959527330119943]},
+            "neck": {"rotation": [0.0, 0.0, -0.014999437506328097, 0.9998875021093592]},
+            "leftUpperArm": {"rotation": [-0.0, 0.0, -0.361615431964962, 0.9323273456060345]},
+            "rightUpperArm": {"rotation": [-0.08670732274264398, -0.25733165206217856, 0.3880401484331022, 0.8807310056048719]},
+            "leftLowerArm": {"rotation": [0.0, 0.0, 0.034992854604336196, 0.9993875625234886]},
+            "rightLowerArm": {"rotation": [0.0, 0.674287911628145, 0.0, 0.7384685587295879]},
+            "leftHand": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "rightHand": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "spine": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "hips": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "p_hips": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "chest": {"rotation": [0.0, 0.0, 0.07492970727274234, 0.9971888181122075]},
+            "upperChest": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "leftUpperLeg": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "rightUpperLeg": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "leftLowerLeg": {"rotation": [0.0, 0.0, 0.0, 1.0]},
+            "rightLowerLeg": {"rotation": [0.0, 0.0, 0.0, 1.0]}
+        }
+    }
+}
